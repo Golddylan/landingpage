@@ -1,38 +1,120 @@
+html, body {
+  height: 200vh;
+  width: 100vw;
+}
+
 body{
-    padding: 0;
-    margin: 0;
-    border: 0;
-    height: 100vh;
-    background: linear-gradient(
-      to bottom,
-      #1f2937 0%,
-      #1f2937 50%,
-      rgb(253, 253, 253) 50%,
-      rgb(255, 255, 255) 100%
-    );
-  }
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; 
+  max-width: 100%;
+  
+}
+
+.header-hero-wrapper{
+  width: auto;
+  background-color:#1F2937;
+  padding-top: 8px;
+  height: 30%;
+}
+
+.header-logo{
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  column-gap: 20px;
+  margin-top: 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
 
 .header{
-  color: #F9FAF8;
-    display: flex;
-    justify-content: space-around;
-    padding: 12px;
+  display: flex;
+  justify-content: space-around;
+  
   }
 
-.links{
+.hero{
   display: flex;
-  column-gap: 30px;
+  margin-top: 90px;
+  
+}
+
+.left-side-card{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 40%;
+  margin-left: 200px;
+  
 
 }
 
-
 h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 0;
+  }
+
+
+.hero-text{
   display: flex;
-  justify-content: flex-start
-  flex-wrap: wrap;
-  font-size: 48px;
+  align-items: flex-start;
+  margin-top: 0;
+  color: #e5e7eb ;
+  font-size: 18px;
+}
+
+.sign-up-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 35px;
+  border: 0;
+  background-color: #3882f6;
+  color: white;
+  font-weight: 600;
+}
+
+.hero-image{
+  display: flex;
+  margin-left: 100px;
+}
+
+.cards-wrapper{
+  margin: 20px;
+}
+
+h2{
+  font-size: 36px;
+  text-align: center;
   font-weight: 900;
-  color: #F9FAF8;
-  width: 50%;
+}
+
+.cards-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-subtext{
+  display: flex;
+  text-align: center;
+  max-width: fit-content;
+  margin-top: -15px;
+}
+
+.square-image {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin: 20px;
 }
 
