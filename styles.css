@@ -120,3 +120,31 @@ h2{
   margin: 20px;
 }
 
+.quote-wrapper{
+  background-color: #d6dae2;
+  height: 25vh;
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.quote{
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.thor{
+  font-size: 24px;
+  font-weight: 900;
+  text-align: right;
+  padding-right: 250px;
+  margin-top: 0;
+}
